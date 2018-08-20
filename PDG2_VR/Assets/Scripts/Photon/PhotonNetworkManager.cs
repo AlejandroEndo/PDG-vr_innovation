@@ -12,6 +12,7 @@ public class PhotonNetworkManager : MonoBehaviour {
 
     private void Start () {
         PhotonNetwork.ConnectUsingSettings("0.2.0");
+        //PhotonNetwork.autoCleanUpPlayerObjects = false;
 	}
 	
     public virtual void OnJoinedLobby() {
