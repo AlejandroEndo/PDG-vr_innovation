@@ -11,6 +11,7 @@
 [Uu]nityGenerated/
 # file on crash reports
 sysinfo.txt
+desktop.ini
 # Unity3D generated meta files
 *.pidb.meta
 
@@ -37,6 +38,7 @@ sysinfo.txt
 ._*
 .Spotlight-V100
 .Trashes
+.ini
 Icon?
 ehthumbs.db
 Thumbs.db
