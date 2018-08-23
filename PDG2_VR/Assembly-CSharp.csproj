@@ -427,6 +427,10 @@
     <Compile Include="Assets\_Custom\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\_Custom\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\_Custom\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\Low Poly Rocks Pack\Bonus Assets\Scripts\LowPolyRocks_CameraControl.cs" />
+    <Compile Include="Assets\Low Poly Rocks Pack\Bonus Assets\Scripts\LowPolyRocks_CloudsControl.cs" />
+    <Compile Include="Assets\Low Poly Rocks Pack\Bonus Assets\Scripts\LowPolyRocks_FireLightControl.cs" />
+    <Compile Include="Assets\Low Poly Rocks Pack\Bonus Assets\Scripts\LowPolyRocks_SunControl.cs" />
     <Compile Include="Assets\Scripts\CreateElement.cs" />
     <Compile Include="Assets\Scripts\Photon\PhotonNetworkManager.cs" />
     <Compile Include="Assets\Scripts\Photon\PlayerNetwork.cs" />
@@ -439,6 +443,7 @@
     <None Include="Assets\_Custom\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\_Custom\Photon\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
     <None Include="Assets\_Custom\Photon\Photon Unity Networking\link.xml" />
+    <None Include="Assets\Low Poly Rocks Pack\Demo\Asset _Scenes\Info.txt" />
     <None Include="Assets\_Custom\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\_Custom\Photon\Plugins\Photon3Unity3D.xml" />
     <None Include="Assets\_Custom\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -468,20 +473,20 @@
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Alejandro/Google Drive/PDG II/PDG_Backup/PDG-vr_innovation/PDG2_VR/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Alejandro/Google Drive/PDG II/PDG_Backup/PDG-vr_innovation/PDG2_VR/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Alejandro/Google Drive/PDG II/PDG_Backup/PDG-vr_innovation/PDG2_VR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Alejandro/Google Drive/PDG II/PDG_Backup/PDG-vr_innovation/PDG2_VR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/Alejandro/Google Drive/PDG II/PDG_Backup/PDG-vr_innovation/PDG2_VR/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>C:/Users/Alejandro/Google Drive/PDG II/PDG_Backup/PDG-vr_innovation/PDG2_VR/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>C:/Users/Alejandro/Google Drive/PDG II/PDG_Backup/PDG-vr_innovation/PDG2_VR/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/Alejandro/Google Drive/PDG II/PDG_Backup/PDG-vr_innovation/PDG2_VR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
