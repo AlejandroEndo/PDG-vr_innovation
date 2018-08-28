@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Low Poly Rocks Pack/Demo/Demo_Scenes/Demo_07.unity
+- path: Assets/_Custom/VRTK/Examples/[007 - Interactions] InteractionHelpers.unity
   isLoaded: 1
   isActive: 1
