@@ -12,6 +12,7 @@ public class ViewToPlayer : MonoBehaviour {
 	
 	
 	void Update () {
-        this.transform.LookAt(player.position);
+        //if(transform.parent.CompareTag(""))
+        transform.LookAt(player.position);
 	}
 }

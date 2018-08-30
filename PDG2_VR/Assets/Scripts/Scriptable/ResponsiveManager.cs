@@ -8,7 +8,6 @@ public class ResponsiveManager : MonoBehaviour {
     [SerializeField] private RectTransform textTransform;
 
     [SerializeField] private float minSize;
-    [SerializeField] [Range(0f, 2f)] float textTransformScale;
 
     private float initialWidth;
     private float initialHeight;

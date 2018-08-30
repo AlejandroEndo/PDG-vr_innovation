@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Custom\BubbleShader\Script\RenderDepth.cs" />
     <Compile Include="Assets\_Custom\IBM speech to tex\Watson\Examples\ServiceExamples\Scripts\ExampleAssistant.cs" />
     <Compile Include="Assets\_Custom\IBM speech to tex\Watson\Examples\ServiceExamples\Scripts\ExampleCallback.cs" />
     <Compile Include="Assets\_Custom\IBM speech to tex\Watson\Examples\ServiceExamples\Scripts\ExampleConversation.cs" />
@@ -886,6 +887,7 @@
     <None Include="Assets\_Custom\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\_Custom\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\_Custom\SteamVR\Resources\SteamVR_Fade.shader" />
+    <None Include="Assets\_Custom\BubbleShader\Shader\ForceField.shader" />
     <None Include="Assets\_Custom\Photon\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
     <None Include="Assets\_Custom\Photon\Photon Unity Networking\link.xml" />
     <None Include="Assets\_Custom\SteamVR\Resources\SteamVR_ClearAll.shader" />
