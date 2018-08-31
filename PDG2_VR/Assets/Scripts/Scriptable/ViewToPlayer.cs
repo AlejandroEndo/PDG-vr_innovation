@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class ViewToPlayer : MonoBehaviour {
 
-    [SerializeField] private Transform player;
-	
-	void Start () {
-		
-	}
-	
-	
-	void Update () {
-        //if(transform.parent.CompareTag(""))
-        transform.LookAt(player.position);
-	}
+    [SerializeField] private Transform mCamera;
+
+    void Start() {
+
+    }
+
+
+    void Update() {
+        transform.LookAt(transform.position + mCamera.transform.rotation * Vector3.back,
+           mCamera.transform.rotation * Vector3.up);
+    }
 }

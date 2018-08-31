@@ -876,6 +876,7 @@
     <Compile Include="Assets\_Custom\VRTK\Source\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
     <Compile Include="Assets\_Custom\VRTK\Source\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
     <Compile Include="Assets\Scripts\CreateElement.cs" />
+    <Compile Include="Assets\Scripts\FloatingFx.cs" />
     <Compile Include="Assets\Scripts\Photon\PhotonNetworkManager.cs" />
     <Compile Include="Assets\Scripts\Photon\PlayerNetwork.cs" />
     <Compile Include="Assets\Scripts\Scriptable\DisplayBubble.cs" />
