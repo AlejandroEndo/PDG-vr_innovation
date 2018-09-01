@@ -7,6 +7,8 @@ public class ResponsiveManager : MonoBehaviour {
     [Header("Text Configuration")]
     [SerializeField] private RectTransform textTransform;
 
+    [SerializeField] private float minSize;
+
     private float initialWidth;
     private float initialHeight;
 
@@ -22,17 +24,17 @@ public class ResponsiveManager : MonoBehaviour {
     }
 
     void Update() {
-        if (transform.localScale.x < 1.3f || transform.localScale.y < 1.3f || transform.localScale.z < 1.3f) {
-            transform.localScale = new Vector3(1.3f, 1.3f, 1.3f);
+        if (transform.localScale.x < minSize || transform.localScale.y < minSize || transform.localScale.z < minSize) {
+            transform.localScale = new Vector3(minSize, minSize, minSize);
         }
 
         width = initialWidth * transform.localScale.x;
         height = initialHeight * transform.localScale.y;
 
-        if (width < 2.5f && height < 2.5f) {
+        //if (width < textTransformScale && height < textTransformScale) {
             textTransform.localScale = new Vector3(1 / transform.localScale.x, 1 / transform.localScale.y, 1 / transform.localScale.z);
 
             textTransform.sizeDelta = new Vector2(width, height * 0.8f);
-        } else Debug.Log("Matilda");
+        //} else Debug.Log("Matilda");
     }
 }
