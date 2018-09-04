@@ -916,6 +916,7 @@
     <None Include="Assets\_Custom\Photon\Photon Unity Networking\readme.txt" />
     <None Include="Assets\_Custom\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\_Custom\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+    <None Include="Assets\Shaders\Skybox Cubemap Extended.shader" />
     <None Include="Assets\_Custom\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\_Custom\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\_Custom\VRTK\Source\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
