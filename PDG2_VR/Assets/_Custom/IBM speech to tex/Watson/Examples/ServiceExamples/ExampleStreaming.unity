@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -478,7 +478,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1646685151}
   - component: {fileID: 1646685150}
-  - component: {fileID: 1646685152}
   m_Layer: 0
   m_Name: ExampleStreaming
   m_TagString: Untagged
@@ -503,7 +502,6 @@ MonoBehaviour:
   _password: M6y3TylEcp6a
   _iamApikey: 
   _iamUrl: 
-  speakable: 0
 --- !u!4 &1646685151
 Transform:
   m_ObjectHideFlags: 0
@@ -517,17 +515,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1646685152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1646685149}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 719cfac8c6d132541b988db0aab55616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1863902089
 GameObject:
   m_ObjectHideFlags: 0
