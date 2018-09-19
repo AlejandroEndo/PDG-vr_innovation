@@ -7,21 +7,23 @@ public class ViewToPlayer : MonoBehaviour {
     [SerializeField] private Transform mCamera;
 
     [SerializeField] private Vector3[] boxSide;
-    [SerializeField] [Range(0, 3)] private int index;
+    [SerializeField] [Range(0, 5)] private int index;
     [SerializeField] [Range(0f, 10f)] private float rotationSpeed;
 
     void Start() {
-        boxSide = new Vector3[4];
+        boxSide = new Vector3[6];
         boxSide[0] = Vector3.forward;
         boxSide[1] = Vector3.right;
         boxSide[2] = Vector3.back;
         boxSide[3] = Vector3.left;
+        boxSide[4] = Vector3.up;
+        boxSide[5] = Vector3.down;
     }
 
 
     void Update() {
         //transform.LookAt(transform.position + mCamera.transform.rotation * boxSide[index], mCamera.transform.rotation * boxSide[index]);
-        if (transform.parent == null) {
+        if (transform.parent == null || transform.parent.CompareTag("Clasificador")) {
             //transform.LookAt(transform.position + mCamera.transform.rotation * boxSide[index], mCamera.transform.rotation * Vector3.up);
 
             Quaternion OriginalRot = transform.rotation;

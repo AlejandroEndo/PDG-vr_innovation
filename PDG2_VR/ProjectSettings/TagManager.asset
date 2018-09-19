@@ -17,6 +17,8 @@ TagManager:
   - RightHand
   - Body
   - LobyCamera
+  - PostIt
+  - Clasificador
   layers:
   - Default
   - TransparentFX
