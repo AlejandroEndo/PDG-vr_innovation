@@ -25,7 +25,6 @@ public class Attributes : MonoBehaviour {
     public TextMeshPro valueTextL;
     [Range(0,10)] public int valueL;
 
-
     void Start () {
         valueTextR.text = valueR.ToString();
         valueTextB.text = valueB.ToString();

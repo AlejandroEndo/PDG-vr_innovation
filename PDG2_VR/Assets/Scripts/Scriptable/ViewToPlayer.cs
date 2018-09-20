@@ -7,8 +7,9 @@ public class ViewToPlayer : MonoBehaviour {
     [SerializeField] private Transform mCamera;
 
     [SerializeField] private Vector3[] boxSide;
-    [SerializeField] [Range(0, 5)] private int index;
     [SerializeField] [Range(0f, 10f)] private float rotationSpeed;
+
+    [Range(0, 5)] public int index;
 
     void Start() {
         boxSide = new Vector3[6];

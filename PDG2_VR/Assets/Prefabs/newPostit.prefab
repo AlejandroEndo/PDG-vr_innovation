@@ -846,8 +846,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mCamera: {fileID: 0}
   boxSide: []
-  index: 0
   rotationSpeed: 8
+  index: 1
 --- !u!114 &114213264413900522
 MonoBehaviour:
   m_ObjectHideFlags: 1
