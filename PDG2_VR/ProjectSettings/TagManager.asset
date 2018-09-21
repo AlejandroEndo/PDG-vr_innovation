@@ -19,6 +19,7 @@ TagManager:
   - LobyCamera
   - PostIt
   - Clasificador
+  - Whiteboard
   layers:
   - Default
   - TransparentFX

@@ -894,6 +894,8 @@
     <Compile Include="Assets\Scripts\Scriptable\ResponsiveObject.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ScriptableBubble.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ViewToPlayer.cs" />
+    <Compile Include="Assets\Scripts\Scriptable\Whiteboard.cs" />
+    <Compile Include="Assets\Scripts\Scriptable\Writter.cs" />
     <Compile Include="Assets\Scripts\Watson\SpeechRecognition.cs" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Examples\Community\LowPolyWater\Credits.txt" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Templates\Legacy\Sprites-Default.shader" />
