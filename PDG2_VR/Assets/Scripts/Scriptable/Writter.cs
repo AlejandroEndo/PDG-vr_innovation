@@ -5,7 +5,7 @@ using VRTK;
 
 public class Writter : VRTK_InteractableObject {
 
-   
+    
     public Whiteboard whiteboard;
     private RaycastHit touch;
     private Quaternion lastAngle;
@@ -36,7 +36,7 @@ public class Writter : VRTK_InteractableObject {
          
 
          
-            whiteboard.SetColor(Color.red);
+            whiteboard.SetColor(Color.blue);
             whiteboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
             whiteboard.ToggleTouch(true);
 

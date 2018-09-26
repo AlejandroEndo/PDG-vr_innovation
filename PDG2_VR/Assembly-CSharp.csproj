@@ -896,6 +896,7 @@
     <Compile Include="Assets\Scripts\Scriptable\ViewToPlayer.cs" />
     <Compile Include="Assets\Scripts\Scriptable\Whiteboard.cs" />
     <Compile Include="Assets\Scripts\Scriptable\Writter.cs" />
+    <Compile Include="Assets\Scripts\Tools\MovingAverage.cs" />
     <Compile Include="Assets\Scripts\Tools\ToolofTools.cs" />
     <Compile Include="Assets\Scripts\Watson\SpeechRecognition.cs" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Examples\Community\LowPolyWater\Credits.txt" />
