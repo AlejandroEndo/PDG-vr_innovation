@@ -71,7 +71,7 @@ public class Clasification : MonoBehaviour {
         postITSorter.Reverse();
 
         for (int i = 0; i < postITSorter.Count; i++) {
-            Debug.Log("[LIST VALUES: " + postITSorter[i].value +"]");
+            Debug.Log("[LIST VALUES: " + postITSorter[i].value + "]");
             toSort[i] = postITSorter[i].postit;
         }
 
@@ -105,7 +105,7 @@ public class Clasification : MonoBehaviour {
                 } else {
                     int l = (int)-1 * (toSort.Length / 4);
                     a.position = new Vector3(l + (i - toSort.Length / 2) + transform.position.x, 0.5f
-                        + transform.position.y, +transform.position.z);
+                        + transform.position.y, transform.position.z);
                 }
             }
         }

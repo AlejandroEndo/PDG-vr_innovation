@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/VRTK_Testing Pen.unity
+- path: Assets/_Custom/VRTK/Examples/[007 - Interactions] InteractionHelpers.unity
   isLoaded: 1
   isActive: 1

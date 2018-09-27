@@ -17,7 +17,7 @@ public class MovingAverage : MonoBehaviour {
     void FixedUpdate() {
         if (range == 0) return;
 
-        if(posiciones.Count < range) {
+        if (posiciones.Count < range) {
             posiciones.Add(transform.position);
         } else {
             Vector3 newPos = CalculateAverage(posiciones, transform.position);
@@ -34,7 +34,14 @@ public class MovingAverage : MonoBehaviour {
         float yTotal = 0f;
         float zTotal = 0f;
 
+        if (positions.Count > range) {
+            for (int i = 0; i < positions.Count - range; i++) {
+                positions.RemoveAt(0);
+            }
+        }
+
         for (int i = 0; i < positions.Count; i++) {
+
             xTotal += positions[i].x;
             yTotal += positions[i].y;
             zTotal += positions[i].z;
