@@ -64,7 +64,6 @@ public class Clasification : MonoBehaviour {
             p.postit = toSort[i];
 
             postITSorter.Add(p);
-
         }
 
         postITSorter.Sort();
@@ -89,18 +88,16 @@ public class Clasification : MonoBehaviour {
         for (int i = 0; i < toSort.Length; i++) {
             //Debug.Log(toSort[i].GetComponent<Attributes>().valueR);
             Transform a = toSort[i].transform;
-
+            a.SetParent(transform);
             if (toSort.Length < 4) {
-
                 int l = (int)-1 * (toSort.Length / 2);
                 a.position = new Vector3(l + i + transform.position.x, +transform.position.y,
                     transform.position.z);
 
             } else {
-
                 if (i < toSort.Length / 2) {
                     int l = (int)-1 * (toSort.Length / 4);
-                    a.position = new Vector3(l + i + +transform.position.x, -0.5f + transform.position.y,
+                    a.position = new Vector3(l + i + transform.position.x, -0.5f + transform.position.y,
                         transform.position.z);
                 } else {
                     int l = (int)-1 * (toSort.Length / 4);
@@ -108,6 +105,12 @@ public class Clasification : MonoBehaviour {
                         + transform.position.y, transform.position.z);
                 }
             }
+        }
+
+        transform.Rotate(new Vector3(0, 180, 0));
+
+        for (int i = 0; i < toSort.Length; i++) {
+            toSort[i].transform.SetParent(null);
         }
         Debug.Log("[ORGANIZADO]");
     }
