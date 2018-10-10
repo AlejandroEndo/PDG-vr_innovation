@@ -892,6 +892,7 @@
     <Compile Include="Assets\Scripts\Scriptable\DisplayBubble.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ResponsiveManager.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ResponsiveObject.cs" />
+    <Compile Include="Assets\Scripts\Scriptable\ScaleOnSnapPoint.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ScriptableBubble.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ViewToPlayer.cs" />
     <Compile Include="Assets\Scripts\Scriptable\Whiteboard.cs" />

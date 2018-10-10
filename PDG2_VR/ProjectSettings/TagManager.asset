@@ -20,6 +20,7 @@ TagManager:
   - PostIt
   - Clasificador
   - Whiteboard
+  - LookAtMe
   layers:
   - Default
   - TransparentFX

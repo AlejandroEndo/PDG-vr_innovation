@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 114206672705946572}
   - component: {fileID: 114283584211365488}
   - component: {fileID: 114496678534673888}
+  - component: {fileID: 114049066028277086}
   m_Layer: 0
   m_Name: newPostit
   m_TagString: PostIt
@@ -316,8 +317,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1159232092511016}
-  m_LocalRotation: {x: 0, y: 0.99906826, z: 0, w: -0.04315804}
-  m_LocalPosition: {x: 1.2413299, y: 1.1422906, z: -0.51189613}
+  m_LocalRotation: {x: 0.26033896, y: -0.16951886, z: 0.28385898, w: 0.90714455}
+  m_LocalPosition: {x: 2.3377273, y: 0.006000042, z: 0.4700241}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 4629897281182730}
@@ -819,6 +820,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114049066028277086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1159232092511016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 485e2891672ba5442afb846075b4b1b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114106956089070640
 MonoBehaviour:
   m_ObjectHideFlags: 1

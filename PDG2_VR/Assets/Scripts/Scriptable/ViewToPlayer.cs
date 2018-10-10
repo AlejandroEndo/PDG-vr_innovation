@@ -12,6 +12,9 @@ public class ViewToPlayer : MonoBehaviour {
     [Range(0, 5)] public int index;
 
     void Start() {
+
+        mCamera = GameObject.FindGameObjectWithTag("LookAtMe").transform;
+
         boxSide = new Vector3[6];
         boxSide[0] = Vector3.forward;
         boxSide[1] = Vector3.right;
