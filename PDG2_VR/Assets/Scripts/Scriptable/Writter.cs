@@ -6,21 +6,18 @@ using VRTK;
 
 public class Writter : VRTK_InteractableObject {
 
-    
     public Whiteboard whiteboard;
     private RaycastHit touch;
     private Quaternion lastAngle;
     private bool lastTouch;
     public GameObject floor;
-    
-
 
     // Use this for initialization
     void Start() {
-     
+
         this.whiteboard = GameObject.Find("Whiteboard").GetComponent<Whiteboard>();
 
-       //GetComponent<VRTK_ControllerEvents>().TriggerPressed += new ControllerInteractionEventHandler(DoTriggerPressed);
+        //GetComponent<VRTK_ControllerEvents>().TriggerPressed += new ControllerInteractionEventHandler(DoTriggerPressed);
     }
 
     /*private void DoTriggerPressed(object sender, ControllerInteractionEventArgs e) {
@@ -38,21 +35,15 @@ public class Writter : VRTK_InteractableObject {
             tipHeight *= 1.1f;
         }
 
-           
-        
-
         if (Physics.Raycast(tip, transform.up, out touch, tipHeight)) {
             if (!(touch.collider.tag == "Whiteboard")) return;
             this.whiteboard = touch.collider.GetComponent<Whiteboard>();
 
-         
-
-         
-            whiteboard.SetColor(Color.blue);
+            whiteboard.SetColor(Color.black);
             whiteboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
             whiteboard.ToggleTouch(true);
 
-    
+
             if (lastTouch == false) {
                 lastTouch = true;
                 lastAngle = transform.rotation;
@@ -62,11 +53,11 @@ public class Writter : VRTK_InteractableObject {
             lastTouch = false;
         }
 
-    
+
         if (lastTouch) {
             transform.rotation = lastAngle;
         }
     }
 
-  
+
 }
