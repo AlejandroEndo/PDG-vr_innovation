@@ -127,7 +127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4597839787864554}
   m_Layer: 0
-  m_Name: JointSnapPoint
+  m_Name: JointSnapPoint_Pink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +361,6 @@ GameObject:
   - component: {fileID: 4431344872962414}
   - component: {fileID: 114452550493919622}
   - component: {fileID: 114118184680149618}
-  - component: {fileID: 114597484398415958}
   - component: {fileID: 114292570603475054}
   - component: {fileID: 114453627798101358}
   - component: {fileID: 114363096325822104}
@@ -551,7 +550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4133261322572594}
   m_Layer: 0
-  m_Name: JointSnapPoint (3)
+  m_Name: JointSnapPoint_Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1099,7 +1098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4485837482231500}
   m_Layer: 0
-  m_Name: JointSnapPoint (2)
+  m_Name: JointSnapPoint_Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1176,7 +1175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4220142651292988}
   m_Layer: 0
-  m_Name: JointSnapPoint (1)
+  m_Name: JointSnapPoint_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3188,7 +3187,7 @@ MonoBehaviour:
   pointerRenderer: {fileID: 114363096325822104}
   activationButton: 10
   holdButtonToActivate: 1
-  activateOnEnable: 0
+  activateOnEnable: 1
   activationDelay: 0
   selectionButton: 10
   selectOnPress: 0
@@ -3238,7 +3237,7 @@ MonoBehaviour:
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 114839254875594310}
   displayDropZoneInEditor: 1
-  defaultSnappedInteractableObject: {fileID: 114748153203881356, guid: 7f263e946c2af38449f4fe8afb5983c4,
+  defaultSnappedInteractableObject: {fileID: 114128283562499722, guid: 1b56646c3f526e446b893c999b86aa3a,
     type: 2}
   defaultSnappedObject: {fileID: 0}
 --- !u!114 &114182748969067822
@@ -3552,48 +3551,9 @@ MonoBehaviour:
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 114972845116572962}
   displayDropZoneInEditor: 1
-  defaultSnappedInteractableObject: {fileID: 114748153203881356, guid: 7f263e946c2af38449f4fe8afb5983c4,
+  defaultSnappedInteractableObject: {fileID: 114978194756001868, guid: a652a41e4c3f5954fba557560a07db3a,
     type: 2}
   defaultSnappedObject: {fileID: 0}
---- !u!114 &114597484398415958
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1285048422129846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd904f4ca6767424eaf8e050bc174741, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playareaCursor: {fileID: 0}
-  directionIndicator: {fileID: 0}
-  customRaycast: {fileID: 0}
-  pointerOriginSmoothingSettings:
-    smoothsPosition: 0
-    maxAllowedPerFrameDistanceDifference: 0.003
-    smoothsRotation: 0
-    maxAllowedPerFrameAngleDifference: 1.5
-  validCollisionColor: {r: 0.5411765, g: 0.9019608, b: 1, a: 1}
-  invalidCollisionColor: {r: 0.54509807, g: 0.14901961, b: 0.20784314, a: 1}
-  tracerVisibility: 0
-  cursorVisibility: 0
-  maximumLength: {x: 10, y: Infinity}
-  tracerDensity: 10
-  cursorRadius: 0.5
-  heightLimitAngle: 100
-  curveOffset: 1
-  rescaleTracer: 1
-  cursorMatchTargetRotation: 1
-  collisionCheckFrequency: 0
-  customTracer: {fileID: 1243129740067272, guid: 55819859b7f22784e98360b14b14b88e,
-    type: 2}
-  customCursor: {fileID: 1992590638579992, guid: da6c46fadc74b154ca5df638cdb2d592,
-    type: 2}
-  validLocationObject: {fileID: 1652574584400748, guid: 12370ddcc6985ba4abe57fc5b64502f8,
-    type: 2}
-  invalidLocationObject: {fileID: 1413768137026182, guid: af1c322da33b9ec40b0f5a418ed90ef4,
-    type: 2}
 --- !u!114 &114633344599396858
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3616,7 +3576,7 @@ MonoBehaviour:
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 114120523082588542}
   displayDropZoneInEditor: 1
-  defaultSnappedInteractableObject: {fileID: 114748153203881356, guid: 7f263e946c2af38449f4fe8afb5983c4,
+  defaultSnappedInteractableObject: {fileID: 114102358814541304, guid: aabaca2410a39b84487877332c0a20e0,
     type: 2}
   defaultSnappedObject: {fileID: 0}
 --- !u!114 &114640572554915956
@@ -3851,7 +3811,7 @@ MonoBehaviour:
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 114896733428864854}
   displayDropZoneInEditor: 1
-  defaultSnappedInteractableObject: {fileID: 114748153203881356, guid: 7f263e946c2af38449f4fe8afb5983c4,
+  defaultSnappedInteractableObject: {fileID: 114981864521601514, guid: 31c377e1a1023d24b96d96c55e6727ea,
     type: 2}
   defaultSnappedObject: {fileID: 0}
 --- !u!114 &114896733428864854
