@@ -887,6 +887,7 @@
     <Compile Include="Assets\Scripts\FloatingFx.cs" />
     <Compile Include="Assets\Scripts\Photon\PhotonNetworkManager.cs" />
     <Compile Include="Assets\Scripts\Photon\PlayerNetwork.cs" />
+    <Compile Include="Assets\Scripts\RadialMenuCreator.cs" />
     <Compile Include="Assets\Scripts\Scriptable\Attributes.cs" />
     <Compile Include="Assets\Scripts\Scriptable\Clasification.cs" />
     <Compile Include="Assets\Scripts\Scriptable\DisplayBubble.cs" />
@@ -895,11 +896,11 @@
     <Compile Include="Assets\Scripts\Scriptable\ScaleOnSnapPoint.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ScriptableBubble.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ViewToPlayer.cs" />
-    <Compile Include="Assets\Scripts\Scriptable\Whiteboard.cs" />
-    <Compile Include="Assets\Scripts\Scriptable\Writter.cs" />
     <Compile Include="Assets\Scripts\Tools\MovingAverage.cs" />
     <Compile Include="Assets\Scripts\Tools\ToolofTools.cs" />
     <Compile Include="Assets\Scripts\Watson\SpeechRecognition.cs" />
+    <Compile Include="Assets\Scripts\Whiteboard.cs" />
+    <Compile Include="Assets\Scripts\Writter.cs" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Examples\Community\LowPolyWater\Credits.txt" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Templates\Legacy\Sprites-Default.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Examples\Official\ScreenSpaceDetail\ScreenSpaceDetail.shader" />
