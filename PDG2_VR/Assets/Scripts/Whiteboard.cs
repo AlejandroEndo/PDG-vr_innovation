@@ -62,4 +62,8 @@ public class Whiteboard : MonoBehaviour {
     public void SetColor(Color color) {
         this.color = Enumerable.Repeat<Color>(color, penSize * penSize).ToArray<Color>();
     }
+
+    public void SetPenSize(int size) {
+        penSize = size;
+    }
 }

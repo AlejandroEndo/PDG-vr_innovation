@@ -17,18 +17,18 @@ public class Writter : VRTK_InteractableObject {
 
         this.whiteboard = GameObject.Find("Whiteboard").GetComponent<Whiteboard>();
 
-        //GetComponent<VRTK_ControllerEvents>().TriggerPressed += new ControllerInteractionEventHandler(DoTriggerPressed);
+        GetComponent<VRTK_ControllerEvents>().TriggerPressed += new ControllerInteractionEventHandler(DoTriggerPressed);
     }
 
-    /*private void DoTriggerPressed(object sender, ControllerInteractionEventArgs e) {
+    private void DoTriggerPressed(object sender, ControllerInteractionEventArgs e) {
 
         floor.SetActive(false);
-    }*/
+    }
 
     void Update() {
         float tipHeight = transform.Find("Tip").transform.localScale.y;
         Vector3 tip = transform.Find("Tip/TouchPoint").transform.position;
-
+        whiteboard.SetPenSize(10);
         //Debug.Log(tip);
 
         if (lastTouch) {
