@@ -3,7 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ExcludeTeleport
+  - TeleportIgnore
+  - Leg
+  - SnapCube
+  - Arm
+  - SnapCylinder
+  - Saucers
+  - Torso
+  - Head
+  - LeftHand
+  - RightHand
+  - Body
+  - LobyCamera
+  - PostIt
+  - Clasificador
+  - Whiteboard
+  - LookAtMe
+  - Marker
   layers:
   - Default
   - TransparentFX
