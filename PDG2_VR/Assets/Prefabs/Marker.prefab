@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114725982262997350}
   m_Layer: 0
   m_Name: Marker
-  m_TagString: Untagged
+  m_TagString: Marker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -354,7 +354,8 @@ MonoBehaviour:
   objectHighlighter: {fileID: 0}
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   usingState: 0
-  whiteboard: {fileID: 0}
+  whiteboard: {fileID: 114464015627315878, guid: 3267d69a3b3a50e45a64b27193f7b4e2,
+    type: 2}
   floor: {fileID: 0}
 --- !u!114 &114745947604643698
 MonoBehaviour:

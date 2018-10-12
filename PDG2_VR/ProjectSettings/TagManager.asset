@@ -21,6 +21,7 @@ TagManager:
   - Clasificador
   - Whiteboard
   - LookAtMe
+  - Marker
   layers:
   - Default
   - TransparentFX
