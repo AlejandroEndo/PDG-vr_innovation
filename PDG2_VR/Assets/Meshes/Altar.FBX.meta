@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 61bc1cc3bb10e264c87ae42cf068aaa6
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Base
+    100004: Pillar01
+    100006: Pillar02
+    100008: Pillar03
+    100010: Pillar04
+    100012: Pyramid001
+    100014: Pyramid002
+    100016: Pyramid003
+    100018: Pyramid004
+    100020: Ring1
+    100022: Ring2
+    100024: Ring3
+    400000: //RootNode
+    400002: Base
+    400004: Pillar01
+    400006: Pillar02
+    400008: Pillar03
+    400010: Pillar04
+    400012: Pyramid001
+    400014: Pyramid002
+    400016: Pyramid003
+    400018: Pyramid004
+    400020: Ring1
+    400022: Ring2
+    400024: Ring3
+    2100000: 'Material #48'
+    2100002: 'Material #36'
+    2100004: No Name
+    2300000: Base
+    2300002: Pillar01
+    2300004: Pillar02
+    2300006: Pillar03
+    2300008: Pillar04
+    2300010: Pyramid001
+    2300012: Pyramid002
+    2300014: Pyramid003
+    2300016: Pyramid004
+    2300018: Ring1
+    2300020: Ring2
+    2300022: Ring3
+    3300000: Base
+    3300002: Pillar01
+    3300004: Pillar02
+    3300006: Pillar03
+    3300008: Pillar04
+    3300010: Pyramid001
+    3300012: Pyramid002
+    3300014: Pyramid003
+    3300016: Pyramid004
+    3300018: Ring1
+    3300020: Ring2
+    3300022: Ring3
+    4300000: Base
+    4300002: Pillar02
+    4300004: Pyramid002
+    4300006: Pillar01
+    4300008: Pyramid001
+    4300010: Pillar04
+    4300012: Pyramid004
+    4300014: Ring3
+    4300016: Ring2
+    4300018: Ring1
+    4300020: Pillar03
+    4300022: Pyramid003
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
