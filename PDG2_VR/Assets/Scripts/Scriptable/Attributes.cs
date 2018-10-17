@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Attributes : MonoBehaviour {
 
+    [Header("Scriptable Settings")]
+    [SerializeField] private ScriptableBubble bubble;
+
     [Header("Forward")]
     public TextMeshPro nameF;
     public TextMeshPro description;

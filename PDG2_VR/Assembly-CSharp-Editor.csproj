@@ -519,6 +519,7 @@
     <Compile Include="Assets\_Custom\VRTK\Source\Editor\VRTK_SDKSetupEditor.cs" />
     <Compile Include="Assets\_Custom\VRTK\Source\Editor\VRTK_SupportInfoWindow.cs" />
     <Compile Include="Assets\_Custom\VRTK\Source\Editor\VRTK_UpdatePrompt.cs" />
+    <Compile Include="Assets\_Custom\Weelco\VRInput\Scripts\Editor\VRInputSettingsEditor.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Alejandro/Google Drive/PDG II/PDG_Backup/PDG-vr_innovation/PDG2_VR/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
