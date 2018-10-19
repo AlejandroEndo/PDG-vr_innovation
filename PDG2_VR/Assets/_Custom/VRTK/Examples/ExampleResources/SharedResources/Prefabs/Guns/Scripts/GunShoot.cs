@@ -35,18 +35,7 @@
 
         protected virtual void FireProjectile()
         {
-            if (projectile != null && projectileSpawnPoint != null)
-            {
-                GameObject clonedProjectile = Instantiate(projectile, projectileSpawnPoint.position, projectileSpawnPoint.rotation);
-                Rigidbody projectileRigidbody = clonedProjectile.GetComponent<Rigidbody>();
-                float destroyTime = 0f;
-                if (projectileRigidbody != null)
-                {
-                    projectileRigidbody.AddForce(clonedProjectile.transform.forward * projectileSpeed);
-                    destroyTime = projectileLife;
-                }
-                Destroy(clonedProjectile, destroyTime);
-            }
+            Debug.Log("AAAA");
         }
     }
 }

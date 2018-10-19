@@ -112,6 +112,8 @@ GameObject:
   - component: {fileID: 114742716605714818}
   - component: {fileID: 114038218866343504}
   - component: {fileID: 114537190177244984}
+  - component: {fileID: 114597811214807610}
+  - component: {fileID: 114833824201456648}
   m_Layer: 0
   m_Name: Postit_Yellow
   m_TagString: PostIt
@@ -1645,6 +1647,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   m_maskType: 0
+--- !u!114 &114597811214807610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258218556249760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e701acfeb7038449100b04cf943c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linkedObject: {fileID: 0}
 --- !u!114 &114648982950931898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1671,6 +1685,22 @@ MonoBehaviour:
   boxSide: []
   rotationSpeed: 8
   index: 0
+--- !u!114 &114833824201456648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258218556249760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ca93fede098044cadf3914aa7e5325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linkedObject: {fileID: 114978194756001868}
+  projectile: {fileID: 0}
+  projectileSpawnPoint: {fileID: 0}
+  projectileSpeed: 1000
+  projectileLife: 5
 --- !u!114 &114866966639594810
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1847,7 +1877,7 @@ MonoBehaviour:
   holdButtonToUse: 1
   useOnlyIfGrabbed: 0
   pointerActivatesUseAction: 0
-  useOverrideButton: 0
+  useOverrideButton: 3
   allowedUseControllers: 0
   objectHighlighter: {fileID: 0}
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}

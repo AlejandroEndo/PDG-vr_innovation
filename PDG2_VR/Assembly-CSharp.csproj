@@ -912,6 +912,7 @@
     <Compile Include="Assets\Scripts\Scriptable\Attributes.cs" />
     <Compile Include="Assets\Scripts\Scriptable\Clasification.cs" />
     <Compile Include="Assets\Scripts\Scriptable\DisplayBubble.cs" />
+    <Compile Include="Assets\Scripts\Scriptable\EditorPostit.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ResponsiveManager.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ResponsiveObject.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ScaleOnSnapPoint.cs" />
