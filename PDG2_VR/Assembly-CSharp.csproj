@@ -1481,6 +1481,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity201811/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity201811/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>C:/Users/Alejandro/Google Drive/PDG II/PDG_Backup/PDG-vr_innovation/PDG2_VR/Assets/_Custom/IBM speech to tex/Watson/Plugins/websocket-sharp.dll</HintPath>
     </Reference>

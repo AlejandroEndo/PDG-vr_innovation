@@ -26,6 +26,7 @@ public class EditorPostit : MonoBehaviour {
     }
 
     protected virtual void FireProjectile() {
-        Debug.Log("AAAA");
+        Debug.Log("[DIFERENTE]");
     }
 }
+

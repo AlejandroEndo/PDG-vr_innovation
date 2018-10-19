@@ -261,7 +261,6 @@ GameObject:
   - component: {fileID: 114663080204533848}
   - component: {fileID: 114636339763819600}
   - component: {fileID: 114956805865751410}
-  - component: {fileID: 114756243908826600}
   m_Layer: 0
   m_Name: Postit_Pink
   m_TagString: PostIt
@@ -1715,22 +1714,6 @@ MonoBehaviour:
   nameL: {fileID: 114150142242888462}
   valueTextL: {fileID: 114219730033239198}
   valueL: 9
---- !u!114 &114756243908826600
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1920450154539422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23ca93fede098044cadf3914aa7e5325, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  linkedObject: {fileID: 114102358814541304}
-  projectile: {fileID: 0}
-  projectileSpawnPoint: {fileID: 0}
-  projectileSpeed: 1000
-  projectileLife: 5
 --- !u!114 &114823061041212396
 MonoBehaviour:
   m_ObjectHideFlags: 1

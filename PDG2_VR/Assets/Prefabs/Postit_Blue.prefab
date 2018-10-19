@@ -246,7 +246,6 @@ GameObject:
   - component: {fileID: 114309454287953000}
   - component: {fileID: 114495889528520352}
   - component: {fileID: 114856376899121088}
-  - component: {fileID: 114096480515100132}
   m_Layer: 0
   m_Name: Postit_Blue
   m_TagString: PostIt
@@ -1066,22 +1065,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   m_maskType: 0
---- !u!114 &114096480515100132
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1620353458895978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23ca93fede098044cadf3914aa7e5325, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  linkedObject: {fileID: 114981864521601514}
-  projectile: {fileID: 0}
-  projectileSpawnPoint: {fileID: 0}
-  projectileSpeed: 1000
-  projectileLife: 5
 --- !u!114 &114175526146792336
 MonoBehaviour:
   m_ObjectHideFlags: 1

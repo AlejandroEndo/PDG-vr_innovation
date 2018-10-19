@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Custom/VRTK/Examples/[005 - Interactions] InteractableObjects.unity
+- path: Assets/_Scenes/Main.unity
   isLoaded: 1
   isActive: 1
