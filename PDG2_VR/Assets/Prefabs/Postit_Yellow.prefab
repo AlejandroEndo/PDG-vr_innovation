@@ -1656,6 +1656,12 @@ MonoBehaviour:
   colours:
   - {r: 0.023529412, g: 0.654902, b: 0.49019608, a: 1}
   - {r: 0.54509807, g: 0.14901961, b: 0.20784314, a: 1}
+  - {r: 0.9528302, g: 0.92759395, b: 0, a: 1}
+  - {r: 0.15834127, g: 0.54509807, b: 0.14901961, a: 1}
+  - {r: 0.14995034, g: 0.14901961, b: 0.54509807, a: 1}
+  - {r: 0.9528302, g: 0.20225172, b: 0.77989686, a: 1}
+  - {r: 0.0141509175, g: 0.38480094, b: 1, a: 1}
+  - {r: 1, g: 0, b: 0.14851475, a: 1}
 --- !u!114 &114301728119768280
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2022,7 +2028,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c2d622bc4892ff441aee9289a6006707, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -2034,7 +2040,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: D
 --- !u!114 &114491556374272096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2055,7 +2061,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: c2d622bc4892ff441aee9289a6006707, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -2067,7 +2073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: T
 --- !u!114 &114496877399019608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2896,7 +2902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateTowards: {fileID: 0}
-  zoomScaleMultiplier: 9.96
+  zoomScaleMultiplier: 3
   topPanelMenuItemController: {fileID: 114518345268744710}
   bottomPanelMenuItemController: {fileID: 0}
   leftPanelMenuItemController: {fileID: 0}
