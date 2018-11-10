@@ -6648,7 +6648,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148926, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
       propertyPath: m_TagString
-      value: TeleportIgnore
+      value: ExcludeTeleport
+      objectReference: {fileID: 0}
+    - target: {fileID: 167608, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
+      propertyPath: m_TagString
+      value: ExcludeTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
@@ -9561,7 +9565,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148926, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
       propertyPath: m_TagString
-      value: TeleportIgnore
+      value: ExcludeTeleport
+      objectReference: {fileID: 0}
+    - target: {fileID: 167608, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
+      propertyPath: m_TagString
+      value: ExcludeTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
@@ -11466,7 +11474,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 124564, guid: a2d17cc85e696e3459ec771bc306d4f3, type: 2}
       propertyPath: m_TagString
-      value: TeleportIgnore
+      value: ExcludeTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2d17cc85e696e3459ec771bc306d4f3, type: 2}
@@ -12434,7 +12442,7 @@ GameObject:
   - component: {fileID: 1148239768}
   m_Layer: 0
   m_Name: _Rock_Block_Wall
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14145,6 +14153,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.32920727
       objectReference: {fileID: 0}
+    - target: {fileID: 157130, guid: db984920dc326cb4d86cfb9b3b67e6a5, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db984920dc326cb4d86cfb9b3b67e6a5, type: 2}
   m_IsPrefabParent: 0
@@ -15203,7 +15215,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148926, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
       propertyPath: m_TagString
-      value: TeleportIgnore
+      value: ExcludeTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
@@ -16236,7 +16248,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148926, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
       propertyPath: m_TagString
-      value: TeleportIgnore
+      value: ExcludeTeleport
+      objectReference: {fileID: 0}
+    - target: {fileID: 167608, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
+      propertyPath: m_TagString
+      value: ExcludeTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
@@ -16863,7 +16879,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: f5504b2dcecb1294eacde548277f67f1, type: 2}
     - target: {fileID: 172440, guid: d5d546ae95d2ceb48b35bbf5bc41e38d, type: 2}
       propertyPath: m_TagString
-      value: TeleportIgnore
+      value: ExcludeTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5d546ae95d2ceb48b35bbf5bc41e38d, type: 2}
@@ -17663,7 +17679,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: f5504b2dcecb1294eacde548277f67f1, type: 2}
     - target: {fileID: 172440, guid: d5d546ae95d2ceb48b35bbf5bc41e38d, type: 2}
       propertyPath: m_TagString
-      value: TeleportIgnore
+      value: ExcludeTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5d546ae95d2ceb48b35bbf5bc41e38d, type: 2}
@@ -17741,7 +17757,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148926, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
       propertyPath: m_TagString
-      value: TeleportIgnore
+      value: ExcludeTeleport
+      objectReference: {fileID: 0}
+    - target: {fileID: 167608, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
+      propertyPath: m_TagString
+      value: ExcludeTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 890bebf54a514d9408e033aa1761ba78, type: 2}
@@ -18541,7 +18561,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: f5504b2dcecb1294eacde548277f67f1, type: 2}
     - target: {fileID: 172440, guid: d5d546ae95d2ceb48b35bbf5bc41e38d, type: 2}
       propertyPath: m_TagString
-      value: TeleportIgnore
+      value: ExcludeTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5d546ae95d2ceb48b35bbf5bc41e38d, type: 2}
@@ -19263,7 +19283,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 188798, guid: c8dfe41a0c322fe43b93e05c274c6bea, type: 2}
       propertyPath: m_TagString
-      value: TeleportIgnore
+      value: ExcludeTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8dfe41a0c322fe43b93e05c274c6bea, type: 2}
