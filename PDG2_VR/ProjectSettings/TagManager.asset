@@ -23,6 +23,7 @@ TagManager:
   - LookAtMe
   - Marker
   - Eraser
+  - Wallboard
   layers:
   - Default
   - TransparentFX

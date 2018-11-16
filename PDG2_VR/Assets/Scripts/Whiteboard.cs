@@ -19,8 +19,6 @@ public class Whiteboard : MonoBehaviour {
         Renderer renderer = GetComponent<Renderer>();
         this.texture = new Texture2D(textureSize, textureSize);
         renderer.material.mainTexture = (Texture)texture;
-
-
     }
 
 

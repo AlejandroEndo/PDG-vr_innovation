@@ -7,6 +7,7 @@ using VRTK;
 public class Writter : VRTK_InteractableObject {
 
     public Whiteboard whiteboard;
+    public WallBoard wallboard;
     private RaycastHit touch;
     private Quaternion lastAngle;
     private bool lastTouch;
@@ -36,17 +37,30 @@ public class Writter : VRTK_InteractableObject {
         }
 
         if (Physics.Raycast(tip, transform.up, out touch, tipHeight)) {
-            if (!(touch.collider.tag == "Whiteboard")) return;
-            this.whiteboard = touch.collider.GetComponent<Whiteboard>();
+            if (touch.collider.tag == "Whiteboard") {
+                this.whiteboard = touch.collider.GetComponent<Whiteboard>();
 
-            whiteboard.SetColor(Color.black);
-            whiteboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
-            whiteboard.ToggleTouch(true);
+                whiteboard.SetColor(Color.black);
+                whiteboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
+                whiteboard.ToggleTouch(true);
 
 
-            if (lastTouch == false) {
-                lastTouch = true;
-                lastAngle = transform.rotation;
+                if (lastTouch == false) {
+                    lastTouch = true;
+                    lastAngle = transform.rotation;
+                }
+            } else if (touch.collider.tag == "Wallboard") {
+                this.wallboard = touch.collider.GetComponent<WallBoard>();
+
+                wallboard.SetColor(Color.black);
+                wallboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
+                wallboard.ToggleTouch(true);
+
+
+                if (lastTouch == false) {
+                    lastTouch = true;
+                    lastAngle = transform.rotation;
+                }
             }
         } else {
             whiteboard.ToggleTouch(false);

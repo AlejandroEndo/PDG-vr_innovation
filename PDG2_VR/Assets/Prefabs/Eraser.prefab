@@ -148,7 +148,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1917064753062708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.13, z: 0}
+  m_LocalPosition: {x: 0, y: 0.476, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4083213292084250}
@@ -323,6 +323,8 @@ MonoBehaviour:
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   usingState: 0
   whiteboard: {fileID: 114464015627315878, guid: 3267d69a3b3a50e45a64b27193f7b4e2,
+    type: 2}
+  wallboard: {fileID: 114343351293624496, guid: 3e31bcf1c59795c4bac98e1b104d396a,
     type: 2}
   floor: {fileID: 0}
 --- !u!114 &114510919535127562
