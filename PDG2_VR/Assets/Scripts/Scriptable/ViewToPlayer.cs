@@ -37,4 +37,12 @@ public class ViewToPlayer : MonoBehaviour {
             transform.rotation = Quaternion.Lerp(transform.rotation, NewRot, rotationSpeed * Time.deltaTime);
         }
     }
+
+    public void TurnRight() {
+        if (index < 3) index++;
+    }
+
+    public void TurnLeft() {
+        if (index > 0) index--;
+    }
 }

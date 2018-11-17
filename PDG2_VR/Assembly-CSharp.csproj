@@ -905,6 +905,8 @@
     <Compile Include="Assets\Scripts\CreateElement.cs" />
     <Compile Include="Assets\Scripts\Eraser.cs" />
     <Compile Include="Assets\Scripts\FloatingFx.cs" />
+    <Compile Include="Assets\Scripts\keyBoard\EditorManager.cs" />
+    <Compile Include="Assets\Scripts\keyBoard\KeyboardManager.cs" />
     <Compile Include="Assets\Scripts\keyBoard\Test_CaptureInputKey.cs" />
     <Compile Include="Assets\Scripts\Photon\PhotonNetworkManager.cs" />
     <Compile Include="Assets\Scripts\Photon\PlayerNetwork.cs" />
