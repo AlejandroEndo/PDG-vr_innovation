@@ -25,8 +25,8 @@ public class EditorPostit : MonoBehaviour {
         FireProjectile();
     }
 
-    protected virtual void FireProjectile() {
-        Debug.Log("[DIFERENTE]");
+    protected virtual void FireProjectile() { // Este metodo se ejecuta con el trigger
+        
     }
 }
 

@@ -37,24 +37,24 @@ public class Writter : VRTK_InteractableObject {
         }
 
         if (Physics.Raycast(tip, transform.up, out touch, tipHeight)) {
-            if (touch.collider.tag == "Whiteboard") {
-                this.whiteboard = touch.collider.GetComponent<Whiteboard>();
+            if (touch.collider.tag == "Wallboard") {
+                this.wallboard = touch.collider.GetComponent<WallBoard>();
 
-                whiteboard.SetColor(Color.black);
-                whiteboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
-                whiteboard.ToggleTouch(true);
+                wallboard.SetColor(Color.black);
+                wallboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
+                wallboard.ToggleTouch(true);
 
 
                 if (lastTouch == false) {
                     lastTouch = true;
                     lastAngle = transform.rotation;
                 }
-            } else if (touch.collider.tag == "Wallboard") {
-                this.wallboard = touch.collider.GetComponent<WallBoard>();
+            } else if (touch.collider.tag == "Whiteboard") {
+                this.whiteboard = touch.collider.GetComponent<Whiteboard>();
 
-                wallboard.SetColor(Color.black);
-                wallboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
-                wallboard.ToggleTouch(true);
+                whiteboard.SetColor(Color.black);
+                whiteboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
+                whiteboard.ToggleTouch(true);
 
 
                 if (lastTouch == false) {
