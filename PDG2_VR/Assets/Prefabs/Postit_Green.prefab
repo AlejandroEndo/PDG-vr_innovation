@@ -1116,6 +1116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   linkedObject: {fileID: 0}
+  editor: {fileID: 0}
 --- !u!114 &114489172281247236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1372,6 +1373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a1ad04605e1d7a46b446fa6bb855d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  color: []
 --- !u!114 &114712697141832652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1496,7 +1498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 618ef1830fa57364298bd6c573b5788a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bubble: {fileID: 0}
+  bubble: {fileID: 11400000, guid: 6d7fe5534248c40429968dd30f73c9fa, type: 2}
   nameF: {fileID: 114960020778745436}
   description: {fileID: 114912173000574848}
   draw: {fileID: 1543999993801826}
@@ -1505,10 +1507,10 @@ MonoBehaviour:
   valueR: 0
   nameB: {fileID: 114992600309146480}
   valueTextB: {fileID: 114712697141832652}
-  valueB: 2
+  valueB: 0
   nameL: {fileID: 114489172281247236}
   valueTextL: {fileID: 114677620784899022}
-  valueL: 9
+  valueL: 0
 --- !u!114 &114862636338441506
 MonoBehaviour:
   m_ObjectHideFlags: 1

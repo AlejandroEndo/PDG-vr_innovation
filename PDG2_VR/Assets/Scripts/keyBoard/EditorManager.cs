@@ -33,6 +33,9 @@ public class EditorManager : MonoBehaviour {
     }
 
     void Update() {
+        if (!postitOnEdit) return;
+
+        if (postitOnEdit.transform.parent != null) DeactivateEditor();
     }
 
     public void DeactivateEditor() {

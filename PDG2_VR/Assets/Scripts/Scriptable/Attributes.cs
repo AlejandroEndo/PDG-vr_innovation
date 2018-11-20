@@ -29,6 +29,10 @@ public class Attributes : MonoBehaviour {
     [Range(0,10)] public int valueL;
 
     void Start () {
+        nameR.text = bubble.tittleR;
+        nameB.text = bubble.tittleB;
+        nameL.text = bubble.tittleL;
+
         valueTextR.text = valueR.ToString();
         valueTextB.text = valueB.ToString();
         valueTextL.text = valueL.ToString();

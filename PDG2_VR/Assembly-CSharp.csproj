@@ -908,6 +908,7 @@
     <Compile Include="Assets\Scripts\keyBoard\EditorManager.cs" />
     <Compile Include="Assets\Scripts\keyBoard\KeyboardManager.cs" />
     <Compile Include="Assets\Scripts\keyBoard\Test_CaptureInputKey.cs" />
+    <Compile Include="Assets\Scripts\NavMenu\Screens.cs" />
     <Compile Include="Assets\Scripts\Photon\PhotonNetworkManager.cs" />
     <Compile Include="Assets\Scripts\Photon\PlayerNetwork.cs" />
     <Compile Include="Assets\Scripts\RadialMenuCreator.cs" />

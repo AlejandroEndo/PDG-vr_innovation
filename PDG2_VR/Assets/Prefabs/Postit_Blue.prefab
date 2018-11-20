@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 618ef1830fa57364298bd6c573b5788a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bubble: {fileID: 0}
+  bubble: {fileID: 11400000, guid: 6d7fe5534248c40429968dd30f73c9fa, type: 2}
   nameF: {fileID: 114318016163734540}
   description: {fileID: 114891819534976720}
   draw: {fileID: 1525174630746298}
@@ -1143,10 +1143,10 @@ MonoBehaviour:
   valueR: 0
   nameB: {fileID: 114059131783434130}
   valueTextB: {fileID: 114816521024618010}
-  valueB: 2
+  valueB: 0
   nameL: {fileID: 114608558185852228}
   valueTextL: {fileID: 114629408902087082}
-  valueL: 9
+  valueL: 0
 --- !u!114 &114318016163734540
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -953,10 +953,10 @@ MonoBehaviour:
   valueR: 0
   nameB: {fileID: 114036755261827206}
   valueTextB: {fileID: 114545327433265768}
-  valueB: 2
+  valueB: 0
   nameL: {fileID: 114500960717286358}
   valueTextL: {fileID: 114409065157582458}
-  valueL: 9
+  valueL: 0
 --- !u!114 &114062998877084248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1658,6 +1658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   linkedObject: {fileID: 114978194756001868}
+  editor: {fileID: 0}
 --- !u!114 &114648982950931898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1669,6 +1670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a1ad04605e1d7a46b446fa6bb855d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  color: []
 --- !u!114 &114742716605714818
 MonoBehaviour:
   m_ObjectHideFlags: 1
