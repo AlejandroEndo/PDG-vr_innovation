@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 114399549001386856}
   - component: {fileID: 114997777265099088}
   - component: {fileID: 114514320066792044}
+  - component: {fileID: 114175380851032730}
   m_Layer: 0
   m_Name: RightControllerScriptAlias
   m_TagString: RightHand
@@ -914,6 +915,7 @@ GameObject:
   - component: {fileID: 114453627798101358}
   - component: {fileID: 114363096325822104}
   - component: {fileID: 114756261101140356}
+  - component: {fileID: 114318777170756768}
   m_Layer: 0
   m_Name: LeftControllerScriptAlias
   m_TagString: LeftHand
@@ -6357,6 +6359,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!114 &114175380851032730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037625026181514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65eb64f0f2fd6d64faddbcf5d7d3bdbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useButton: 3
+  controllerEvents: {fileID: 0}
+  interactTouch: {fileID: 0}
+  interactGrab: {fileID: 0}
 --- !u!114 &114178792189064758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6912,6 +6929,21 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114318777170756768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285048422129846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65eb64f0f2fd6d64faddbcf5d7d3bdbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useButton: 3
+  controllerEvents: {fileID: 0}
+  interactTouch: {fileID: 0}
+  interactGrab: {fileID: 0}
 --- !u!114 &114321559956255618
 MonoBehaviour:
   m_ObjectHideFlags: 1

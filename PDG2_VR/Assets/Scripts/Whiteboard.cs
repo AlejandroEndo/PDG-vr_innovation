@@ -8,7 +8,7 @@ public class Whiteboard : MonoBehaviour {
     private int textureSize = 1024;
     private int penSize = 10;
     private Texture2D texture;
-    private Color[] color;
+    [SerializeField] private Color[] color;
 
     private bool touching, touchingLast;
     private float posX, posY;

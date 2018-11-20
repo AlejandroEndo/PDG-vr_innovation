@@ -24,6 +24,7 @@ TagManager:
   - Marker
   - Eraser
   - EditorReference
+  - Wallboard
   layers:
   - Default
   - TransparentFX
@@ -33,7 +34,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - LightFocus
   - 
   - 
   - 

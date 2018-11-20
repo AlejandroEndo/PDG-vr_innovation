@@ -12,6 +12,7 @@ public class Eraser : VRTK_InteractableObject {
     private Quaternion lastAngle;
     private bool lastTouch;
     public GameObject floor;
+    public Color myColor;
 
     // Use this for initialization
     void Start() {
@@ -40,7 +41,7 @@ public class Eraser : VRTK_InteractableObject {
             if (touch.collider.tag == "Whiteboard") {
                 this.whiteboard = touch.collider.GetComponent<Whiteboard>();
 
-                whiteboard.SetColor(Color.white);
+                whiteboard.SetColor(myColor);
                 whiteboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
                 whiteboard.ToggleTouch(true);
 
@@ -52,7 +53,7 @@ public class Eraser : VRTK_InteractableObject {
             } else if (touch.collider.tag == "Wallboard") {
                 this.wallboard = touch.collider.GetComponent<WallBoard>();
 
-                wallboard.SetColor(Color.white);
+                wallboard.SetColor(myColor);
                 wallboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
                 wallboard.ToggleTouch(true);
 

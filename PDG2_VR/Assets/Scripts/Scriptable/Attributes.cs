@@ -34,17 +34,17 @@ public class Attributes : MonoBehaviour {
         valueTextL.text = valueL.ToString();
     }
 
-    private void SetValueRight(int value) {
+    public  void SetValueRight(int value) {
         valueR = value;
         valueTextR.text = valueR.ToString();
     }
 
-    private void SetValueBackward(int value) {
+    public void SetValueBackward(int value) {
         valueB = value;
         valueTextB.text = valueB.ToString();
     }
 
-    private void SetValueLeft(int value) {
+    public void SetValueLeft(int value) {
         valueL = value;
         valueTextL.text = valueL.ToString();
     }

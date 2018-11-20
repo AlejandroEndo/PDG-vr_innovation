@@ -32,7 +32,10 @@ public class EditorPostit : MonoBehaviour {
     }
 
     protected virtual void FireProjectile() { // Este metodo se ejecuta con el trigger
-        editor.GetComponent<EditorManager>().TakePlace();
+        if (editor.GetComponent<EditorManager>().onEdit)
+            editor.GetComponent<EditorManager>().DeactivateEditor();
+        else
+            editor.GetComponent<EditorManager>().TakePlace(gameObject);
     }
 }
 
