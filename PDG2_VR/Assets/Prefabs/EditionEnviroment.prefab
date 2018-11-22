@@ -4373,7 +4373,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ControlMethod: 3
   usedHand: 0
-  viveInteractionButton: 33
   gazeCanvas: {fileID: 0}
   gazeProgressBar: {fileID: 0}
   gazeClickTimer: 1

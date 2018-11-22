@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_1;UNITY_2018_1;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;AMPLIFY_SHADER_EDITOR;CROSS_PLATFORM_INPUT;UNITY_POST_PROCESSING_STACK_V2;VRTK_DEFINE_SDK_STEAMVR;VRTK_DEFINE_STEAMVR_PLUGIN_1_2_1_OR_NEWER;VRTK_DEFINE_STEAMVR_PLUGIN_1_2_2_OR_NEWER;VR_INPUT_VIVE;VRTK_VERSION_3_3_0;VRTK_VERSION_3_3_0_OR_NEWER;VRTK_VERSION_3_1_0_OR_NEWER;VRTK_VERSION_3_2_0_OR_NEWER;VRTK_VERSION_3_2_1_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_1;UNITY_2018_1;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;UNITY_POST_PROCESSING_STACK_V2;VRTK_DEFINE_SDK_STEAMVR;VRTK_DEFINE_STEAMVR_PLUGIN_1_2_1_OR_NEWER;VRTK_DEFINE_STEAMVR_PLUGIN_1_2_2_OR_NEWER;VRTK_VERSION_3_3_0;VRTK_VERSION_3_3_0_OR_NEWER;VRTK_VERSION_3_1_0_OR_NEWER;VRTK_VERSION_3_2_0_OR_NEWER;VRTK_VERSION_3_2_1_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -68,6 +68,22 @@
     <Compile Include="Assets\_Custom\AmplifyShaderEditor\Examples\Official\Smear\Smear.cs" />
     <Compile Include="Assets\_Custom\AmplifyShaderEditor\Examples\Official\TemplateExamples\PostProcess\Sobel\PostProcessExample.cs" />
     <Compile Include="Assets\_Custom\AmplifyShaderEditor\Examples\Official\TemplateExamples\Sprites\SpriteMask\SpriteMaskController.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\ES2Init.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Examples\Creating an Automatic Save Structure\ES2UniqueID.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueGameLogic.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueObjectManager.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueSaveManager.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Examples\Save and Load Prefabs Instantiated at Runtime\PrefabManager.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Examples\Shared Assets\Scripts\MyExampleScript.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Examples\Upload and Download a Texture\UploadDownloadTexture.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Types\ES2_AudioClip.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Types\ES2_GameObject.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Types\ES2_RawTexture2D.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Types\ES2_Sprite.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Types\ES2UserType_UnityEngineCanvasRenderer.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Types\ES2UserType_UnityEngineLineRenderer.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Types\ES2UserType_UnityEngineRectTransform.cs" />
+    <Compile Include="Assets\_Custom\Easy Save 2\Types\ES2UserType_UnityEngineUIText.cs" />
     <Compile Include="Assets\_Custom\IBM speech to tex\Watson\Examples\ServiceExamples\Scripts\ExampleAssistant.cs" />
     <Compile Include="Assets\_Custom\IBM speech to tex\Watson\Examples\ServiceExamples\Scripts\ExampleCallback.cs" />
     <Compile Include="Assets\_Custom\IBM speech to tex\Watson\Examples\ServiceExamples\Scripts\ExampleConversation.cs" />
@@ -401,6 +417,87 @@
     <Compile Include="Assets\_Custom\Photon\PhotonChatApi\ChatUserStatus.cs" />
     <Compile Include="Assets\_Custom\Photon\PhotonChatApi\IChatClientListener.cs" />
     <Compile Include="Assets\_Custom\Photon\Plugins\WebSocket\WebSocket.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Playmaker\ES2PlayMaker.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\AutoSave\ES2AutoSave.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\AutoSave\ES2AutoSaveGlobalManager.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\AutoSave\ES2AutoSaveManager.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Crossplatform\ES2DirectoryUtility.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Crossplatform\ES2Dispose.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Crossplatform\ES2FileUtility.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Crossplatform\ES2TypeUtility.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\ES2.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\ES2Auto.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\ES2Cache.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\ES2Data.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\ES2EditorWindowStyle.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\ES2File.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\ES2Reflection.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\ES2Spreadsheet.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\ES2Web.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\MoodkieSecurity\AESBits.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\MoodkieSecurity\AESEncryptor.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\MoodkieSecurity\MD5.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\MoodkieSecurity\MD5Encryptor.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\MoodkieSecurity\Obfuscate.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Readers\ES2Header.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Readers\ES2Reader.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Settings\ES2FilenameData.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Settings\ES2GlobalSettings.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Settings\ES2Keys.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Settings\ES2Settings.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Streams\ES2FileStream.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Streams\ES2MemoryStream.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Streams\ES2PlayerPrefsStream.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Streams\ES2ResourcesStream.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Streams\ES2Stream.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_BoneWeight.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Bounds.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Color.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Color32.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_DateTime.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Enum.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_ES2AutoSaveManager.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_GameObject.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Gradient.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_GradientAlphaKey.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_GradientColorKey.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Material.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Matrix4x4.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Mesh.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Quaternion.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Rect.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Sprite.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Texture.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Texture2D.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Vector2.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Vector3.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Basic Types\ES2_Vector4.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Components\ES2_BoxCollider.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Components\ES2_CapsuleCollider.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Components\ES2_MeshCollider.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Components\ES2_PolygonCollider2D.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Components\ES2_SkinnedMeshRenderer.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Components\ES2_SphereCollider.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Components\ES2_Transform.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\ES2Type.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\ES2TypeManager.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_bool.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_byte.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_char.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_decimal.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_double.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_float.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_int.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_long.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_object.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_sbyte.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_short.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_string.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_uint.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_ulong.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Types\Primitives\ES2_ushort.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Scripts\Writers\ES2Writer.cs" />
+    <Compile Include="Assets\_Custom\Plugins\Easy Save 2\Types\ES2_Sprite.cs" />
     <Compile Include="Assets\_Custom\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\_Custom\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\_Custom\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -915,6 +1012,7 @@
     <Compile Include="Assets\Scripts\Scriptable\Attributes.cs" />
     <Compile Include="Assets\Scripts\Scriptable\Clasification.cs" />
     <Compile Include="Assets\Scripts\Scriptable\DisplayBubble.cs" />
+    <Compile Include="Assets\Scripts\Scriptable\EasySaveManager.cs" />
     <Compile Include="Assets\Scripts\Scriptable\EditorPostit.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ResponsiveManager.cs" />
     <Compile Include="Assets\Scripts\Scriptable\ResponsiveObject.cs" />
@@ -1012,6 +1110,7 @@
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_VertexTangentNode.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RoundOpNode.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceLightPosNode.shader" />
+    <None Include="Assets\_Custom\Easy Save 2\changelog.txt" />
     <None Include="Assets\_Custom\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Examples\Community\2Sided\2Sided.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_GetLocalVarNode.shader" />
@@ -1078,6 +1177,7 @@
     <None Include="Assets\_Custom\AmplifyShaderEditor\Examples\Official\SimpleBlur\SimpleBlur.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TFHCCompareNotEqual.shader" />
     <None Include="Assets\Bubbles\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\_Custom\Easy Save 2\readme.txt" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TexCoordVertexDataNode.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ColorSpaceDouble.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Examples\Official\TemplateExamples\UI\SimpleUI\SimpleUI.shader" />
@@ -1163,6 +1263,7 @@
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CosTime.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleAddOpNode.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RsqrtOpNode.shader" />
+    <None Include="Assets\link.xml" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_VertexColorNode.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TFHCCompareGreater.shader" />
     <None Include="Assets\_Custom\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FresnelNode.shader" />
