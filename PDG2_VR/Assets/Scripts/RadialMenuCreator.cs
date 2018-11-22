@@ -9,6 +9,7 @@ public class RadialMenuCreator : MonoBehaviour {
 
     [Header("Right Hand")]
     [SerializeField] private GameObject marker;
+    [SerializeField] private GameObject eraser;
     [SerializeField] private VRTK_ControllerTooltips rightTextField;
     [SerializeField] private Transform RightHand;
 
@@ -32,6 +33,16 @@ public class RadialMenuCreator : MonoBehaviour {
         } catch (Exception e) {
             Debug.Log("[CREANDO MARCADOR]");
             GameObject m = Instantiate(marker, RightHand.position, Quaternion.identity);
+        }
+    }
+
+    public void CreateEraser() {
+        try {
+            GameObject e = GameObject.FindGameObjectWithTag("Eraser");
+            e.transform.position = RightHand.position;
+        } catch (Exception e) {
+            Debug.Log("[CREANDO BORRADOR]");
+            GameObject m = Instantiate(eraser, RightHand.position, Quaternion.identity);
         }
     }
 

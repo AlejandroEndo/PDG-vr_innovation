@@ -11,6 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f218896075402294f8cb1c43f9ac1ac4, type: 3}
   m_Name: pinguino
   m_EditorClassIdentifier: 
-  tittle: Pinguino picaron, los pinguinos no pueden volar
-  description: los pinguinos no pueden volar por gueis
-  draw: {fileID: 1572307941356056, guid: a142906f91c063b43a1bf3905b03d203, type: 2}
+  tittle: Titulo
+  description: Descripcion
+  draw: {fileID: 0}
+  tittleR: Usuario
+  tittleB: Restaurante
+  tittleL: Servicio

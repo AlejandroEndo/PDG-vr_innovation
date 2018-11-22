@@ -8,7 +8,7 @@ public class Whiteboard : MonoBehaviour {
     private int textureSize = 1024;
     private int penSize = 10;
     private Texture2D texture;
-    private Color[] color;
+    [SerializeField] private Color[] color;
 
     private bool touching, touchingLast;
     private float posX, posY;
@@ -61,5 +61,9 @@ public class Whiteboard : MonoBehaviour {
 
     public void SetColor(Color color) {
         this.color = Enumerable.Repeat<Color>(color, penSize * penSize).ToArray<Color>();
+    }
+
+    public void SetPenSize(int size) {
+        penSize = size;
     }
 }

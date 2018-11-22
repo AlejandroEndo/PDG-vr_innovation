@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 114129201791383128}
   - component: {fileID: 114715540947227008}
   - component: {fileID: 114245551482843866}
+  - component: {fileID: 114250264364575458}
   m_Layer: 0
   m_Name: Postit_Green
   m_TagString: PostIt
@@ -217,7 +218,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1827016835090576
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,8 +305,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1404752396433716}
-  m_LocalRotation: {x: 0.089698754, y: -0.5887806, z: 0.37457496, w: 0.7106231}
-  m_LocalPosition: {x: 0.12613654, y: 1.0383132, z: -0.79581183}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -54.28, y: 1.716, z: 39.969}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 4264791853445638}
@@ -322,8 +323,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1543999993801826}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.48800004}
-  m_LocalScale: {x: 0.553947, y: 0.553947, z: 0.046440393}
+  m_LocalPosition: {x: 0, y: -0.17, z: -0.48800004}
+  m_LocalScale: {x: 0.63733655, y: 0.63733655, z: 0.053431395}
   m_Children: []
   m_Father: {fileID: 4264791853445638}
   m_RootOrder: 0
@@ -513,7 +514,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 2100000, guid: dd0eb51fed78cb345baf92e456125994, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1103,6 +1104,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114250264364575458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1404752396433716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e701acfeb7038449100b04cf943c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linkedObject: {fileID: 0}
+  editor: {fileID: 0}
 --- !u!114 &114489172281247236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1359,6 +1373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a1ad04605e1d7a46b446fa6bb855d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  color: []
 --- !u!114 &114712697141832652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1483,18 +1498,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 618ef1830fa57364298bd6c573b5788a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bubble: {fileID: 11400000, guid: 6d7fe5534248c40429968dd30f73c9fa, type: 2}
+  color: Green
   nameF: {fileID: 114960020778745436}
   description: {fileID: 114912173000574848}
   draw: {fileID: 1543999993801826}
+  newNameF: 
+  newDescription: 
   nameR: {fileID: 114202460485524914}
   valueTextR: {fileID: 114177590891404336}
   valueR: 0
   nameB: {fileID: 114992600309146480}
   valueTextB: {fileID: 114712697141832652}
-  valueB: 2
+  valueB: 0
   nameL: {fileID: 114489172281247236}
   valueTextL: {fileID: 114677620784899022}
-  valueL: 9
+  valueL: 0
 --- !u!114 &114862636338441506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1671,12 +1690,12 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 0.99
+  m_fontSize: 1.65
   m_fontSizeBase: 0.99
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 1
+  m_fontSizeMax: 2
   m_fontStyle: 0
   m_textAlignment: 514
   m_isAlignmentEnumConverted: 1
@@ -1709,7 +1728,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.010051426, w: 0.7890047}
+  m_margin: {x: 0, y: 0, z: 0.010051426, w: 0.64860386}
   m_textInfo:
     textComponent: {fileID: 114960020778745436}
     characterCount: 11

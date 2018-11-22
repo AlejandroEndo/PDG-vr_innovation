@@ -22,6 +22,9 @@ TagManager:
   - Whiteboard
   - LookAtMe
   - Marker
+  - Eraser
+  - EditorReference
+  - Wallboard
   layers:
   - Default
   - TransparentFX
@@ -31,7 +34,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Block
   - 
   - 
   - 
