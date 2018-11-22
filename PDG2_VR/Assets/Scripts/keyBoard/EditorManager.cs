@@ -18,6 +18,7 @@ public class EditorManager : MonoBehaviour {
     [SerializeField] private GameObject tittleButton;
     [SerializeField] private GameObject descriptionButton;
     [SerializeField] private GameObject valueSlider;
+    //[SerializeField] private 
 
     [Header("Editor Elements")]
     [SerializeField] private GameObject keyboardGO;
@@ -41,8 +42,10 @@ public class EditorManager : MonoBehaviour {
     public void DeactivateEditor() {
         onEdit = false;
 
-        ViewToPlayer vtp = postitOnEdit.GetComponent<ViewToPlayer>();
-        vtp.index = 0;
+        if (postitOnEdit != null) {
+            ViewToPlayer vtp = postitOnEdit.GetComponent<ViewToPlayer>();
+            vtp.index = 0;
+        }
 
         Debug.Log(transform.childCount);
 
@@ -190,4 +193,14 @@ public class EditorManager : MonoBehaviour {
                 break;
         }
     }
+
+    public void ErasePostIt() {
+        if (!onEdit) return;
+
+        if (postitOnEdit != null) {
+            Destroy(postitOnEdit);
+            DeactivateEditor();
+        }
+    }
+
 }

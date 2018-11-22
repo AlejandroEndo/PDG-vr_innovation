@@ -57,6 +57,13 @@ public class EasySaveManager : MonoBehaviour {
 
         postitAmount = postits.Length;
 
+        positions.Clear();
+        colors.Clear();
+        titlesF.Clear();
+        valuesR.Clear();
+        valuesB.Clear();
+        valuesL.Clear();
+
         foreach (GameObject p in postits) {
             Attributes a = p.GetComponent<Attributes>();
 
