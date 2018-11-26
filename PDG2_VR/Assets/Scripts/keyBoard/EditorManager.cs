@@ -76,6 +76,10 @@ public class EditorManager : MonoBehaviour {
         canvas.SetActive(true);
         postitPosition.SetActive(true);
 
+        tittleButton.SetActive(true);
+        descriptionButton.SetActive(false);
+        valueSlider.SetActive(false);
+
         Debug.Log("[EDITOR ADJUSTED]");
     }
 
@@ -89,7 +93,7 @@ public class EditorManager : MonoBehaviour {
         switch (vtp.index) {
             case 0:
                 tittleButton.SetActive(true);
-                descriptionButton.SetActive(true);
+                descriptionButton.SetActive(false);
                 valueSlider.SetActive(false);
                 break;
 
@@ -129,7 +133,7 @@ public class EditorManager : MonoBehaviour {
         switch (vtp.index) {
             case 0:
                 tittleButton.SetActive(true);
-                descriptionButton.SetActive(true);
+                descriptionButton.SetActive(false);
                 valueSlider.SetActive(false);
                 break;
 

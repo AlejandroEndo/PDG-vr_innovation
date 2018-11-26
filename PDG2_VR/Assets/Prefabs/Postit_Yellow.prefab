@@ -444,7 +444,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e672810640e4691479d0b43f987fc963, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1863,7 +1863,7 @@ MonoBehaviour:
   secondaryGrabActionScript: {fileID: 114537190177244984}
   isUsable: 1
   holdButtonToUse: 1
-  useOnlyIfGrabbed: 1
+  useOnlyIfGrabbed: 0
   pointerActivatesUseAction: 0
   useOverrideButton: 3
   allowedUseControllers: 0

@@ -28,6 +28,6 @@ public class PhotonNetworkManager : MonoBehaviour {
 
 
 	private void Update () {
-        connectText.text = PhotonNetwork.connectionStateDetailed.ToString();
+        //connectText.text = PhotonNetwork.connectionStateDetailed.ToString();
 	}
 }
