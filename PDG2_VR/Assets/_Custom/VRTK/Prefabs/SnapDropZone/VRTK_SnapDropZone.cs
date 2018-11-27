@@ -518,14 +518,12 @@ namespace VRTK
         {
             if (!isSnapped && ValidSnapObject(objectToSnap, false))
             {
-                Debug.Log("BART");
                 SnapObject(objectToSnap);
             }
         }
 
         protected virtual void UnregisterAllUngrabEvents()
         {
-            Debug.Log("UNBART");
             for (int i = 0; i < currentValidSnapInteractableObjects.Count; i++)
             {
                 currentValidSnapInteractableObjects[i].InteractableObjectGrabbed -= InteractableObjectGrabbed;

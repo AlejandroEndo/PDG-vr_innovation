@@ -25,6 +25,7 @@ TagManager:
   - Eraser
   - EditorReference
   - Wallboard
+  - Floor
   layers:
   - Default
   - TransparentFX
@@ -61,4 +62,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Tablero
+    uniqueID: 1189443725
+    locked: 0
+  - name: Editor
+    uniqueID: 2186900817
     locked: 0

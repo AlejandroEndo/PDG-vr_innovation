@@ -54,7 +54,7 @@ b6d9221b47254767b443daacec28779c Assembly-CSharp.dll:.ES2EditorWindowStyle
 9650139907be6d63bf3c3eaa8900f13f Assembly-CSharp.dll:.ThirdPersonController
 b027659a510ae8d01d6d5f31baf9827a Assembly-CSharp.dll:.PhotonStatsGui
 b67abde15725a0f0aed3280ca9840359 Assembly-CSharp.dll:VRTK.VRTK_TrackedController
-4e919409fbc26ff67d999bc27b7e84a5 Assembly-CSharp.dll:.PlayerNetwork
+fbff4a8e965dbd7ea91e8b8087624d2a Assembly-CSharp.dll:.PlayerNetwork
 b646916c78b48f3208cda1a75aff4d8f Assembly-CSharp.dll:.ChatGui
 707a87add43b3eb5a729fdc3f577b436 Assembly-CSharp.dll:.UniqueSaveManager
 9405ee3c4626a039a12ffe0838c78676 Assembly-CSharp.dll:VRTK.Examples.HandLift
@@ -336,7 +336,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ES2Init
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityStandardAssets.Utility.DragRigidbody
 efeba8c86377b9d349365268f254b606 Assembly-CSharp.dll:VRTK.Examples.Old.FireExtinguisher_Base
-48a7b6eba2161ed055e132b6f1e6fbf3 Assembly-CSharp.dll:.PhotonNetworkManager
+48b41354cb085a42ceaae5c6aa601966 Assembly-CSharp.dll:.PhotonNetworkManager
 10f3b046f8d45d98248461d8e52473c7 Assembly-CSharp.dll:.ES2Auto
 cf79661fe6f4913a1d59f6b06977f06b Assembly-CSharp.dll:VRTK.Controllables.PhysicsBased.VRTK_PhysicsSlider
 75d2fe170f6325c56c4a810c6ff64ba0 Assembly-CSharp.dll:.DemoOwnershipGui
@@ -552,7 +552,7 @@ efeba8c86377b9d349365268f254b606 Assembly-CSharp.dll:VRTK.Examples.FireExtinguis
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:IBM.Watson.DeveloperCloud.Utilities.Runnable
 a61f60e86e80e3653cc459920b7c022c Assembly-CSharp.dll:VRTK.SDK_ControllerSim
 dbcf0747c0ba7d53ad280f253bc91e5d Assembly-CSharp.dll:VRTK.Examples.Archery.ArrowSpawner
-375ce5e0333b689d42d63f6467798836 Assembly-CSharp.dll:.Screens
+c972ba31040d662a06deb39994a3a735 Assembly-CSharp.dll:.Screens
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SpeechRecognition
 5fe1ea142453c20af00529aa23596601 Assembly-CSharp.dll:VRTK.Examples.ClimbableHandLift
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:VRTK.SDK_DaydreamSystem
@@ -676,7 +676,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 d2af69ce28cda6fcf0b7728ae3f251b4 Assembly-CSharp.dll:UnityStandardAssets.Utility.DynamicShadowSettings
 90027d99d55fe121c0f03d66c377195f Assembly-CSharp.dll:.ES2AutoSaveManager
 57c5ec87bdccd1b356bca2db2b2e4159 Assembly-CSharp.dll:VRTK.VRTK_ObjectTooltip
-340b02742762bf7f21ec322c666fa900 Assembly-CSharp.dll:.RadialMenuCreator
+d79c1b3e9df82aaddbd679456d3e28f8 Assembly-CSharp.dll:.RadialMenuCreator
 5331f456bbd3750f02509a54a8a1348b Assembly-CSharp.dll:Valve.VR.InteractionSystem.Balloon
 9cb24d80f90c6c239d5304446a0d7f3e Assembly-CSharp.dll:.CubeInter
 d5fae4b7037edcf691c5eadb154f17e8 Assembly-CSharp.dll:VRTK.UnityEventHelper.VRTK_InteractNearTouch_UnityEvents
