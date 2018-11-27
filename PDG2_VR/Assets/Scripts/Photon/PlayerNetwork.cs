@@ -13,9 +13,9 @@ public class PlayerNetwork : MonoBehaviour {
 
     private GameObject body;
 
-    private Transform headVR;
-    private Transform leftVR;
-    private Transform rightVR;
+    [SerializeField] private Transform headVR;
+    [SerializeField] private Transform leftVR;
+    [SerializeField] private Transform rightVR;
 
     private PhotonView photonView;
 
@@ -31,11 +31,11 @@ public class PlayerNetwork : MonoBehaviour {
     private void Initialize() {
         if (!photonView.isMine) {
             for (int i = 0; i < playerCamera.Length; i++) {
-                //playerCamera[i].SetActive(false);
+                playerCamera[i].SetActive(false);
             }
 
             foreach (MonoBehaviour m in playerControlScript) {
-                //m.enabled = false;
+                m.enabled = false;
             }
         } else {
             /*left.SetParent(body.transform.GetChild(0).transform);
@@ -45,6 +45,10 @@ public class PlayerNetwork : MonoBehaviour {
             leftVR = body.transform.GetChild(0).transform;
             rightVR = body.transform.GetChild(1).transform;
             headVR = body.transform.GetChild(2).transform;
+
+            head.GetComponent<MeshRenderer>().enabled = false;
+            left.GetComponent<MeshRenderer>().enabled = false;
+            right.GetComponent<MeshRenderer>().enabled = false;
 
             head.localPosition = Vector3.zero;
             left.localPosition = Vector3.zero;

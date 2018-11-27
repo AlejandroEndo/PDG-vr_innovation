@@ -44,7 +44,6 @@ public class Writter : VRTK_InteractableObject {
                 wallboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
                 wallboard.ToggleTouch(true);
 
-
                 if (lastTouch == false) {
                     lastTouch = true;
                     lastAngle = transform.rotation;
@@ -55,7 +54,6 @@ public class Writter : VRTK_InteractableObject {
                 whiteboard.SetColor(Color.black);
                 whiteboard.SetTouchPosition(touch.textureCoord.x, touch.textureCoord.y);
                 whiteboard.ToggleTouch(true);
-
 
                 if (lastTouch == false) {
                     lastTouch = true;

@@ -158,7 +158,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: e713b321ce94d93488acd6d208f69a42, type: 2}
+  - {fileID: 2100000, guid: c482c3eff63575047954f8894908037b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -465,7 +465,9 @@ MonoBehaviour:
   head: {fileID: 4878025746632608}
   left: {fileID: 4588264259488752}
   right: {fileID: 4154800092491172}
-  body: {fileID: 0}
+  headVR: {fileID: 0}
+  leftVR: {fileID: 0}
+  rightVR: {fileID: 0}
 --- !u!114 &114245087081426860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -641,7 +643,7 @@ SphereCollider:
   m_GameObject: {fileID: 1099497757912996}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -653,7 +655,7 @@ SphereCollider:
   m_GameObject: {fileID: 1845364310688164}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}

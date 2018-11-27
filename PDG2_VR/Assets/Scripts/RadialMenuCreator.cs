@@ -21,6 +21,12 @@ public class RadialMenuCreator : MonoBehaviour {
     [SerializeField] private GameObject cubeBlue;
     [SerializeField] private Transform LeftHand;
 
+    [Header("Photon Objects")]
+    [SerializeField] private GameObject cubeYellowPhoton;
+    [SerializeField] private GameObject cubePinkPhoton;
+    [SerializeField] private GameObject cubeGreenPhoton;
+    [SerializeField] private GameObject cubeBluePhoton;
+
     void Start() {
 
     }
@@ -67,6 +73,25 @@ public class RadialMenuCreator : MonoBehaviour {
 
     public void CreatePostit_Blue() {
         GameObject c = Instantiate(cubeBlue, LeftHand.position, Quaternion.identity);
+    }
+    #endregion
+
+    #region PHOTON INSTANTIATE POST-ITS
+
+    public void CreatePhoton_Yellow() {
+        PhotonNetwork.Instantiate(cubeYellowPhoton.name, LeftHand.position, Quaternion.identity, 0);
+    }
+
+    public void CreatePhoton_Pink() {
+        PhotonNetwork.Instantiate(cubePinkPhoton.name, LeftHand.position, Quaternion.identity, 0);
+    }
+
+    public void CreatePhoton_Green() {
+        PhotonNetwork.Instantiate(cubeGreenPhoton.name, LeftHand.position, Quaternion.identity, 0);
+    }
+
+    public void CreatePhoton_Blue() {
+        PhotonNetwork.Instantiate(cubeBluePhoton.name, LeftHand.position, Quaternion.identity, 0);
     }
     #endregion
 
