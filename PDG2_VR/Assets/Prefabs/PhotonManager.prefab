@@ -51,7 +51,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c35fb82576bb3b5409cbb76fdda7700d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  connectText: {fileID: 0}
   lobbyCamera: {fileID: 0}
   spawnPoint: {fileID: 0}
   player: {fileID: 1051498601449652, guid: 3851d47cd3f90144a80751bbce68d46f, type: 2}
